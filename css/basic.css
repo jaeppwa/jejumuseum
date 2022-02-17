@@ -1,0 +1,390 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Black+Han+Sans&family=Noto+Sans+KR:wght@100;300;500&display=swap');
+body{
+    font-family: 'Noto Sans KR', sans-serif;color:#333;}
+/*해더부분*/
+.blind{display:none}
+.main{width:100%;}
+#wrap{
+width:100%;
+ margin:0 auto; }
+header{
+    
+    border-top: 5px solid #fa6969 ;
+    height:165px;
+    border-bottom: 1px solid #acacac ;
+
+}
+
+.header_in{
+    position:relative;
+    width:100%;
+    margin:auto;
+}
+ .up{
+    width:100%;
+    height:50px;
+    background:#000;
+}
+.header_in h1.logo{
+    position:absolute;
+    top:0px;
+    left:50%;
+    transform: translate(-50%);
+
+
+}
+.header_in h1.logo a{
+    display: block;
+    width:250px;
+    height:80px;
+    background-image:url(../img/logo.png);
+    background-size:contain; 
+    text-indent: -9999px;
+}
+.header_in {}
+
+
+#gnb{
+    position:absolute;
+    top:110px;
+    left:0;
+    width:100%;
+    z-index: 100;
+    text-align: center;
+    background:#fff;
+    box-shadow: 0 3px 3px #acacac;
+   
+}
+#gnb>ul{
+    display:inline-block;
+}
+#gnb>ul>li{
+    width:160px; 
+    float:left;
+    cursor: pointer;
+  
+    }
+#gnb>ul>li>a{
+    display:block;
+    
+    line-height: 50px;
+    color:#333; 
+    font-weight:500;   
+}
+#gnb>ul>li>a.dp1{
+   font-size: 20px;
+  
+}
+#gnb>ul>li:hover{ 
+ 
+   }
+    #gnb>ul>li:hover a{
+        color:#f11f30;
+        text-decoration: none;
+    }
+.util_menu{
+    
+    position:absolute;
+    top:10px;
+    right:10%;
+    
+}
+
+.util_menu.left{
+    position:absolute;
+    top:10px;
+    left:10%;
+    
+}
+.util_menu ul{}
+.util_menu ul li{
+    float:left;
+}
+
+.util_menu ul li a{
+    
+    display: block;
+     color:#fff;
+    font-size: 16px;
+    line-height:30px;
+}
+.util_menu ul li.member{position: relative;
+    padding:0 15px 0 30px;}
+    .util_menu ul li.member::before{
+        position:absolute;
+        top:50%;
+        left:15%;
+        display:block;
+        content:""; 
+        width:3px; 
+        height:3px;
+        background:#bbb;
+        border-radius:50%;}
+
+
+
+li.global i{
+    color:#fff;
+    font-size:20px;
+    position:absolute;
+    top:5px;
+    right:-25px;
+
+
+}
+.util_menu ul li.global{
+    position:relative;
+}
+header .sub{
+    display:none;
+    text-align:center;
+    position:absolute;
+    width:100%;
+    height:250px;
+    top:170px;
+    z-index: 10;
+    background-color:rgb(252, 252, 252);
+    padding:20px 0;
+    margin-top:50px;
+   
+}
+header .sub .info{
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: left;
+    background:#fd9c9c;
+    width:35%;
+    height:250px;
+
+}
+.infotitle{
+    position: absolute;
+    right:37px;
+    top:0px;
+    padding:30px ;
+    font-size: 30px;
+}
+.infotxt{
+    position: absolute;
+    right:80px;
+    top:80px;
+    
+    
+    
+}
+.clickbtn{position: absolute;
+    bottom: 30px;right:30px;
+    float:left;}
+.clickbtn .btn1{
+    margin-left: 10px;;
+    display: inline-block;
+    padding:15px;
+    border:1px solid red;}
+
+    .clickbtn .btn1:hover {
+        background:#f11f30;
+        
+    }
+header .sub ul{
+    margin-left: 160px;
+    display:inline-block;
+    
+
+}
+header .sub ul li{
+   
+   float:left;
+   margin-left:60px;
+   line-height: 45px;
+   
+
+
+}
+header .sub ul li ul.depth2 {
+    position:absolute;
+    top:0;
+    left:450px
+    
+    
+
+}
+header .sub ul li ul.depth2 li{
+    display:inline-block; 
+    width:160px;
+    border: 1px solid #333;;
+    margin-top: 30px;
+    height:50px;
+   
+    
+
+}
+.depth2 li>a{
+    font-size: 16px;
+}
+
+header .sub ul li ul li{
+  
+}
+header .sub ul li ul li a{
+    color: rgb(124, 124, 124);
+    font-weight:400;
+    
+
+}
+header .sub ul li ul.depth2 a:hover{
+    color:#f11f30;
+  
+}
+.m_sub{display:none;}
+        
+/*header end*/
+
+
+#container{
+    position: relative;
+    width:100%;
+    margin:70px auto 0;}
+.mainVisual{}
+.mainVisual_inner{
+    width:100%;
+    position:relative;
+    height:440px;
+    overflow: hidden;
+}
+.mainVisualinImg{
+
+width:1900px;
+margin:auto;
+}
+.slick-dots{position:absolute; right:50%;
+    bottom:45px;
+margin-right:-585px;}
+.slick-dots li{display:inline-block; margin:0 5px;}
+.slick-dots button{
+    all:unset;
+    width:10px;
+    background: #fff;
+    text-indent: -9999px;
+    height:10px;
+    border-radius: 5px;}
+.slick-dots li.slick-active button{
+    background:#fa6969 ;
+    width:30px;
+    transition:0.3s;
+}
+.morebtn a{color:#fff;}
+
+
+/*containner*/
+
+
+
+footer{
+    background: #000;
+    color:#666; 
+    padding:100px 0; 
+
+}
+.footerInner{
+    position:relative;
+    width:1170px;
+    margin:auto;
+    height:100px;
+  
+}
+.footerInner .logo{
+    position: absolute;
+    top:0; 
+    left:-200px;
+}
+.footerInner .logo h1{
+   
+}
+.footerInner .logo h1>img{
+
+}
+
+.footerInner .footiMenu{
+    margin:10px;
+    float:left;
+    
+}
+.footerInner .footiMenu ul{
+    margin-left: -20px;
+  }
+.footerInner .footiMenu li{
+    line-height: 25px;
+    float:left;
+    margin:0 10px; 
+}
+
+.footerInner .footiMenu li a{
+    color:rgba(255, 255, 255, 0.666); 
+    font-size: 16px;
+ }
+ .footerInner .footiMenu li a.gaein{
+     color:#f85d6a;
+ }
+.footerInner address{
+   
+    font-style: normal;
+    color:rgb(128, 128, 128);
+    float:left;
+    width:800px;
+    font-size:16px;
+    line-height: 25px;
+    
+}
+.footerInner .fam{
+    
+    float:left;
+    margin-top: 0;;
+    
+    
+}
+.footerInner .fam select{
+    
+   all: unset;
+   border:1px solid #494949;
+   padding:10px 20px;    
+    
+}
+
+
+
+
+.footerInner .sns {
+   float:right;
+   position: absolute;
+   top:0px;
+   right:-200px;
+
+}
+.footerInner .sns li{
+    float:left;
+}
+.footerInner .sns a{
+    float:left;
+    width:50px;
+    height:50px;
+    margin-left:10px;
+    
+}
+.footerInner .sns span{
+    display: inline-block;
+    background-image: url("../img/5761468_logo_naver_icon.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 30px 30px;
+    width:30px; 
+    height:30px;
+    
+}
+
+.footerInner .sns a i{
+    float:left;
+    color:#fff;
+    font-size: 30px;
+}
