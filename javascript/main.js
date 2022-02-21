@@ -1,14 +1,14 @@
 $(document).ready(function(){
  
   
-   $("#gnb>.dp1").mouseenter(function(){  
+   $("#gnb").mouseenter(function(){  
       if($(window).width() > 977){  
       $(".sub").stop().slideDown();}
       else{
          $(".sub").stop().slideUp();}
       }
    );
-   $("#gnb").mouseleave(function(){
+   $(".sub").mouseleave(function(){
       if($(window).width() > 977){
     $(".sub").stop().slideUp();}
     else{
