@@ -156,7 +156,7 @@ header .sub ul{
     .footeruper ul dd{
         flex:1;
         float:left;
-        width:25%;  
+        
     }
     .baro em{
         margin-top:10px;
@@ -355,6 +355,7 @@ header .sub ul{
                 top:-16px;
              
              }
+             .header_in h1.logo a{margin-top: -40px;}
         .hamburger{
             z-index: 1001;
             cursor: pointer;
@@ -484,7 +485,7 @@ header .sub ul{
         
         ul.m_list li{
             margin-left: 10px;
-            background: #fcd8db44;
+            background: rgba(252, 216, 219, 0.267);
             margin-top: 0px;
             padding:10px;
             border-bottom:none;
@@ -562,7 +563,7 @@ header .sub ul{
               }
               .footeruper ul dd{
                   text-align: center;
-                  float:none;}
+                  float:left;}
               .footerUper_w{width:100%}
               .footeruper ul dt {
                 flex:1;  
@@ -616,11 +617,11 @@ header .sub ul{
                 right:6%;
                 
             }
-            .footerInner .footiMenu ul{}
+           
             .footerInner .footiMenu{
                 display: inline-block;
                 float:none;
-                margin-left: none;;}
+                margin-left:0;}
             .secondarrowRight{
                 right:5%;
             }
@@ -733,7 +734,7 @@ header .sub ul{
            
         }
         .circle{margin-left: 0;}
-        .footeruper ul dt{margin-left:0;}
+        .footeruper ul dt{margin-left:10px;}
         .baro{margin-left: 20px;}
        
 }
@@ -773,9 +774,9 @@ header .sub ul{
         .textmessege h3{font-size: 16px;}
         .footeruper ul{
             width:100%;;}
-           
+           .footeruper ul dd{margin-left: 20px;}
             .footeruper ul li{width:100%;
-            margin-left:none;}
+            margin-left:0;}
             .footerInner{}
            
             .footerInner .footiMenu ul{margin-left: 0;}

@@ -28,6 +28,7 @@ header{
     background:#000;
 }
 .header_in h1.logo{
+    text-indent: -9999px;
     position:absolute;
     top:0px;
     left:50%;
@@ -263,7 +264,7 @@ margin:auto;
 margin-right:-585px;}
 .slick-dots li{display:inline-block; margin:0 5px;}
 .slick-dots button{
-    all:unset;
+    fill:unset;
     width:10px;
     background: #fff;
     text-indent: -9999px;
@@ -344,7 +345,7 @@ footer{
 }
 .footerInner .fam select{
     
-   all: unset;
+   fill: unset;
    border:1px solid #494949;
    padding:10px 20px;    
     
@@ -387,3 +388,4 @@ footer{
     color:#fff;
     font-size: 30px;
 }
+

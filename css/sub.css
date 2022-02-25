@@ -240,7 +240,7 @@ margin-bottom: 50px;
     height:100%;;
     top:0;
     left:0;
-    background:linear-gradient(#9eeefc51,rgb(2, 10, 56));
+    background:linear-gradient(rgba(158, 238, 252, 0.318),rgb(2, 10, 56));
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }   
 .pd_tab ul{
@@ -367,32 +367,32 @@ margin-bottom: 50px;
     width:100%;
 }
 .SubpdLiInner ul li .tit {
-    transition: 0.2;
+    transition: 0.2s;
     display: block;}
 .SubpdLiInner ul li .en {
     margin:5px 0;
     color:#666;
     display: block;
 font-size: 16px;
-transition: 0.3;
+transition: 0.3s;
 }
 .SubpdLiInner ul li .kal {
     margin-top:10px;
     color:rgb(41, 40, 39);
     font-size: 18px;
     display: block;
-    transition: 0.4;
+    transition: 0.4s;
     
     font-family: 'Black Han Sans';}
 .SubpdLiInner ul li .summary {
     opacity: 0;
     color:rgb(250, 174, 177);
-    transition: 0.4;
+    transition: 0.4s;
 }
 .SubpdLiInner ul li .btn_view {
  
     opacity:0;
-    transition: 0.4;
+    transition: 0.4s;
    
 }
 strong.tit{margin-top: 10px;}
@@ -743,14 +743,15 @@ li.maintitle a{
     float:left;
     margin-left: 20px;
     margin-top: -10px;
-    width:33.33%;
+   
    
    
 }
 .footeruper ul dd{
     flex:1;
     float:left;
-    width:33.33%;
+    margin-left: 50px;;
+   
    
    
 }
